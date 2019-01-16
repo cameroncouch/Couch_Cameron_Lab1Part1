@@ -12,17 +12,26 @@
     color: #69696a;
     padding: 0px 10px 0px 10px;
 }
+.navitem1:hover, .navitem2:hover, .navitem3:hover, .navitem4:hover {
+    color: rgb(207, 130, 213);
+}
 .navitem5 {
     padding: 10px 40px;
     background-color: #000000;
     color: #ffffff;
     border-radius: 25px
 }
+.navitem5:hover {
+    background-color: rgb(247, 193, 162);
+}
 .navlogo {
     position: absolute;
     left: 2%;
     font-weight: bold;
     color: #000000;
+}
+.navlogo:hover {
+    transform: scale(1.10);
 }
 .chirphead {
     position: absolute;
@@ -94,6 +103,9 @@
     color: #ffffff;
     border-radius: 25px
 }
+.scrollbut:hover{
+    background-color: rgb(207, 130, 213);
+}
 /*ID STYLES*/
 
 /*TAG STYLES*/
@@ -103,4 +115,7 @@ main {
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f9fafc;
+}
+span:hover {
+    
 }
